@@ -10,7 +10,7 @@ namespace DatApp_API.Data
     public class Datacontext : DbContext
     {
         public Datacontext( DbContextOptions<Datacontext> options) : base(options) {   }
-        public DbSet<User> user { get; set; }
+        public DbSet<Users> users { get; set; }
 
     }
 }

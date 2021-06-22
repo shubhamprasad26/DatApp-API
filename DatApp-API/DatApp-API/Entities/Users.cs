@@ -5,11 +5,11 @@ using System.Threading.Tasks;
 
 namespace DatApp_API.Entities
 {
-    public class User
+    public class Users
     {
         public int Id { get; set; }
         public string Name { get; set; }
-        public string passwordHash { get; set; }
-        public string passwordSalt { get; set; }
+        public byte[] passwordHash { get; set; }
+        public byte[] passwordSalt { get; set; }
     }
 }

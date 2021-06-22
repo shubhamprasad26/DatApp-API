@@ -20,11 +20,11 @@ namespace DatApp_API.Controllers
             _context = context;
         }
         [HttpGet]
-        [Route]
+        
 
-        public async Task<ActionResult<IEnumerable<User>>> GetAll()
+        public async Task<ActionResult<IEnumerable<Users>>> GetAll()
         {
-            return await _context.user.ToListAsync();
+            return await _context.users.ToListAsync();
         }
     }
 }
