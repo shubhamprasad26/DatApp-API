@@ -4965,11 +4965,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Project\\DatApp\\DatApp-API\\DatApp-API\\DatApp-API.csproj",
+      "projectUniqueName": "C:\\Users\\anmol\\Source\\Repos\\DatApp-API\\DatApp-API\\DatApp-API\\DatApp-API.csproj",
       "projectName": "DatApp-API",
-      "projectPath": "C:\\Project\\DatApp\\DatApp-API\\DatApp-API\\DatApp-API.csproj",
+      "projectPath": "C:\\Users\\anmol\\Source\\Repos\\DatApp-API\\DatApp-API\\DatApp-API\\DatApp-API.csproj",
       "packagesPath": "C:\\Users\\anmol\\.nuget\\packages\\",
-      "outputPath": "C:\\Project\\DatApp\\DatApp-API\\DatApp-API\\obj\\",
+      "outputPath": "C:\\Users\\anmol\\Source\\Repos\\DatApp-API\\DatApp-API\\DatApp-API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\anmol\\AppData\\Roaming\\NuGet\\NuGet.Config",
