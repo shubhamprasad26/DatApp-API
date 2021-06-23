@@ -1,5 +1,6 @@
 ﻿using DatApp_API.Data;
 using DatApp_API.Entities;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -19,9 +20,8 @@ namespace DatApp_API.Controllers
         {
             _context = context;
         }
-        [HttpGet]
-        
-
+        [Authorize]
+        [HttpGet]      
         public async Task<ActionResult<IEnumerable<Users>>> GetAll()
         {
             return await _context.users.ToListAsync();
